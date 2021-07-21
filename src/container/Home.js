@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 
 import "./styles.scss";
 import rating from "../asset/star.png";
+import axios from "axios";
 
 const Home = (props) => {
   const [productList, setProductList] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3111/products")
+    axios.get("http://localhost:3111/products")
       .then((res) => res.json())
       .then((response) => setProductList(response));
   }, [productList]);

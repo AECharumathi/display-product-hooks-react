@@ -1,13 +1,11 @@
-# Food Blog Application
+# Product List application
 
-Create a Food Blog application using React, Redux and Saga Middleware. \
- Follow the below steps to build the application: 
- 1. Make use of JSON server to build APIs and consume the APIs using Saga.
- 2. First page of application should display the list of food. 
- 3. On clicking any food item, user should be navigated to respective recipe page.
- 4. Below every item the application should have a details button, which (on clicking) should route user to the recipe. 
- 5. Make use of Bootstrap to design the application.
- 6. Make use of Axios with saga to make an API call.
+Create a Product List application using React Hooks. \
+Follow the below steps to build the application:
+1. Perform the state management using React Hooks (make use of useState() method)
+2. First page of the application should contain the list of products
+3. Make use of only functional components along with React Hooks syntax.
+4. Make the API call using ‘useEffect()’ method and Axios
 
 ## Available Scripts
 
